@@ -1,0 +1,11 @@
+
+
+ 1- should first convert the array to list to remove duplicate values;
+ 2- when iterate the first set should check if the same element in set2 if yes
+    ignore it, no add it to the result
+
+    the same thing when iterate the second set
+
+    now i have the result just print it
+
+

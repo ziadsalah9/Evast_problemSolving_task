@@ -1,4 +1,5 @@
 
+finding distinct elements between two arrays
 
  1- should first convert the array to list to remove duplicate values;
  2- when iterate the first set should check if the same element in set2 if yes
@@ -7,5 +8,26 @@
     the same thing when iterate the second set
 
     now i have the result just print it
+
+
+
+
+In first way
+I converted both input arrays into Sets to remove duplicates and allow fast lookups.
+Then, I filtered elements that exist in the first set but not in the second one.
+I repeated the same process in reverse for the second array.
+Finally, I returned both results as a list of lists.
+
+In second way
+I used stream api to collect data from array into set.
+then doing the same thing filtered elements from the first set by second and the opposite.
+
+ the full implementation code in this Repo
+
+ https://github.com/ziadsalah9/Evast_problemSolving_task/blob/main/src/main/java/com/global/v1Solution.java
+
+ if you need any clarification, please let me know.
+
+Ziad Salah
 
 
